@@ -3,9 +3,9 @@ CSV (Comma-Separated Values) Layout for log4net that produces properly escaped a
 
 # Example Configuration
 
-## Rolling File Appender
+## Rolling File Appender Example
 
-## Colored Console Appender
+## Colored Console Appender Example
 
 # Supported Fields
 * message

@@ -5,6 +5,7 @@ CSV (Comma-Separated Values) Layout for log4net that produces properly escaped a
 The CSV Layout can be used with any log4net appender.  Following are examples for convenience.
 
 ## Rolling File Appender Example
+
 ...xml
 <appender name="file" type="log4net.Appender.RollingFileAppender">
   <file value="myapplog.csv" />
@@ -21,6 +22,7 @@ The CSV Layout can be used with any log4net appender.  Following are examples fo
 ...
 
 ## Colored Console Appender Example
+
 ...xml
 <appender name="console" type="log4net.Appender.ColoredConsoleAppender">
   <mapping>

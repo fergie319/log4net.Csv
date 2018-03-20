@@ -128,6 +128,25 @@ namespace CsvTests
         }
 
         [Test]
+        public void CsvLayout_GetFieldValue_NullProperty_Success()
+        {
+            // Fake Data
+            var fakeLoggingData = new LoggingEventData()
+            {
+                Message = null
+            };
+            var fakeLoggingEvent = new LoggingEvent(fakeLoggingData);
+
+            // Execute Test
+            var underTest = new CsvLayout();
+            underTest.ActivateOptions();
+            var result = underTest.GetFieldValue("message", fakeLoggingEvent);
+
+            // Verify Results
+            CollectionAssert.AreEqual(string.Empty, result);
+        }
+
+        [Test]
         public void CsvLayout_GetFieldValue_CustomProperty_Success()
         {
             // Fake Data

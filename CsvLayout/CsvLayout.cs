@@ -163,7 +163,7 @@ namespace log4net.Csv
                     break;
             }
 
-            return value;
+            return value ?? string.Empty;
         }
     }
 }

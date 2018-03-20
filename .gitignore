@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CsvLayout/bin
+/CsvLayout/obj
+/CsvTests/bin
+/CsvTests/obj
+/ExampleApp/bin
+/ExampleApp/obj
+/packages/
+/.vs/log4net.Csv/v15/.suo

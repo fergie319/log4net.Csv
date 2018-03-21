@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF865715-4C21-4CF1-832E-4621AAB6BE70}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
+		CsvLayout\log4net.csv.nuspec = CsvLayout\log4net.csv.nuspec
 		README.md = README.md
 	EndProjectSection
 EndProject

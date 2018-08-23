@@ -2,8 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CsvLayout/bin
-/CsvLayout/obj
+/log4net.Csv/bin
+/log4net.Csv/obj
+/log4net.Csv/log4net.Csv.1.0.0.nupkg
 /CsvTests/bin
 /CsvTests/obj
 /log4net.Csv.Standard/bin
@@ -12,4 +13,3 @@
 /ExampleApp/obj
 /packages/
 /.vs/log4net.Csv/
-/CsvLayout/log4net.Csv.1.0.0.nupkg

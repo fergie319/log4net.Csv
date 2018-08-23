@@ -74,7 +74,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CsvLayout\log4net.Csv.csproj">
+    <ProjectReference Include="..\log4net.Csv\log4net.Csv.csproj">
       <Project>{61d638d7-c026-4b12-b7bf-80ceb8787943}</Project>
       <Name>log4net.Csv</Name>
     </ProjectReference>

@@ -6,9 +6,10 @@
 /CsvLayout/obj
 /CsvTests/bin
 /CsvTests/obj
+/log4net.Csv.Standard/bin
+/log4net.Csv.Standard/obj
 /ExampleApp/bin
 /ExampleApp/obj
 /packages/
-/.vs/log4net.Csv/v15/.suo
-/.vs/log4net.Csv/v15/Server/sqlite3
+/.vs/log4net.Csv/
 /CsvLayout/log4net.Csv.1.0.0.nupkg

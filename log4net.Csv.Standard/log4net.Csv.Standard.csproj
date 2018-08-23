@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\CsvLayout\CsvLayout.cs" Link="CsvLayout.cs" />
+    <Compile Include="..\log4net.Csv\CsvLayout.cs" Link="CsvLayout.cs" />
   </ItemGroup>
 
   <ItemGroup>

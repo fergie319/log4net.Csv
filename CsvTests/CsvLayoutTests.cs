@@ -185,6 +185,8 @@ namespace CsvTests
             CollectionAssert.AreEqual(string.Empty, result);
         }
 
+ // Disable warning because we need to test TimeStamp in this scenario
+#pragma warning disable CS0618 // Type or member is obsolete
         [Test]
         public void CsvLayout_GetFieldValue_BuiltInProperties_Date_Success()
         {
@@ -207,6 +209,7 @@ namespace CsvTests
             var expectedDateString = stringWriter.GetStringBuilder().ToString();
             CollectionAssert.AreEqual(expectedDateString, result);
         }
+#pragma warning restore CS0618 // Type or member is obsolete
 
         [Test]
         public void CsvLayout_GetFieldValue_BuiltInProperties_UtcDate_Success()

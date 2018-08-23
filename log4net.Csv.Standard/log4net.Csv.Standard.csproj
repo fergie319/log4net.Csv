@@ -1,15 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>strongname.snk</AssemblyOriginatorKeyFile>
     <AssemblyName>log4net.Csv</AssemblyName>
     <RootNamespace>log4net.Csv</RootNamespace>
+    <Version>1.0.1</Version>
+    <Authors>Matthew Ferguson</Authors>
+    <Copyright>Copyright ©  2018</Copyright>
+    <Description>CSV Layout for log4net</Description>
+    <PackageLicenseUrl>https://github.com/fergie319/log4net.Csv/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/fergie319/log4net.Csv/</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\log4net.Csv.Standard.xml</DocumentationFile>
+    <DocumentationFile>..\nuget\lib\netstandard1.3\log4net.Csv.xml</DocumentationFile>
+    <OutputPath>..\nuget\lib\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

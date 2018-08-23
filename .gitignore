@@ -13,3 +13,4 @@
 /ExampleApp/obj
 /packages/
 /.vs/log4net.Csv/
+/nuget/lib

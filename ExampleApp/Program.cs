@@ -6,8 +6,7 @@ using System.IO;
 namespace ExampleApp
 {
     /// <summary>
-    /// Simple example app illustrates how the CSV Layout works.  Whatever you
-    /// type will be logged to the console.  Type 'Exit' to exit.
+    /// 11122333
     /// </summary>
     public class Program
     {
